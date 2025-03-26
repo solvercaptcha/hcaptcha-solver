@@ -1,0 +1,19 @@
+{
+    "title": "__MSG_extName__",
+    "name": "__MSG_extShortName__",
+    "version": "1.0.0",
+    "description": "__MSG_extDescription__",
+    "author": "CaptchaSolver",
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
+    },
+    "scripts": {
+        "chrome": "git archive -o build\/hcaptcha-solver-chrome-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -1 main --worktree-attributes",
+        "firefox": "git archive -o build\/hcaptcha-solver-firefox-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -1 main --worktree-attributes"
+    },
+    "license": "MIT",
+    "keywords": [
+        "hcaptcha"
+    ]
+}
