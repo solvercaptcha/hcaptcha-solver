@@ -13,8 +13,14 @@ A browser extension that automatically solves hCaptcha using the [solvecaptcha.c
 
 Extension UI:
 
+![hcaptcha-solver-ext-main](https://github.com/user-attachments/assets/25ef5a0d-dfb3-481a-ba2c-96f6569db76f)
+
 
 Status Button:
+
+![hcaptcha-solver-button](https://github.com/user-attachments/assets/c27d65bc-664a-49e3-9b09-670f0e641350)
+
+
 
 
 ## How to Test
